@@ -146,6 +146,11 @@ button:hover {
 }
 /* end Download buttons */
 
+.pre-section {
+  height: 5.577em;
+  margin-bottom: -1px;
+}
+
 /* Header Styles */
 header {
   display: flex;
@@ -184,12 +189,13 @@ nav ul li a {
 
 /* Hero Styles */
 #hero {
-  height: 36em;
+  height: 35em;
   background-image: url("./assets/images/woman.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   color: #FFF9EE;
   text-align: center;
@@ -228,7 +234,7 @@ nav ul li a {
 
 /* About Styles */
 #about {
-  padding: 6em;
+  padding: 6em 6em 0 6em;
   background-color: #FFF9EE;
   text-align: center;
 }
@@ -367,6 +373,10 @@ footer .legal-info p {
   .download-buttons .download-button:first-child {
     margin-right: 0;
     margin-bottom: 2em;
+  }
+
+  .pre-section {
+    height: 6.516em;
   }
 
   .header-logo {
