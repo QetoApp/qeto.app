@@ -1,0 +1,19 @@
+.privacy {
+  background-color: white;
+  padding: 10em 0;
+}
+.privacy__text {
+  font-size: 1.2rem;
+  width: 60em;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .privacy {
+    padding: 10.6em 0;
+  }
+  .privacy__text {
+    width: 85%;
+    font-size: 2.3rem;
+  }
+}
