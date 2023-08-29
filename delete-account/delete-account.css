@@ -1,0 +1,113 @@
+.delete-account {
+  background-color: white;
+  padding: 10em 0;
+}
+.delete-account__title {
+  width: max-content;
+  margin: auto;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+
+.delete-account__description,
+.delete-account__description__email {
+  font-size: 1.2rem;
+  color: black;
+}
+.delete-account__description{
+  width: 60em;
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+.delete-account__description__email {
+  text-decoration: underline;
+}
+
+.delete-account__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.delete-account__form__label {
+  font-size: 1.2rem;
+}
+.delete-account__form__input {
+  outline: none;
+  padding-left: .5em;
+  border: 1px solid #CAC4D0;
+  border-radius: 4px;
+  height: 2em;
+  width: 15em;
+}
+.delete-account__form__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 19em;
+  margin-top: 1em;
+}
+.delete-account__delete-button,
+.delete-account__back-button {
+  width: 8.5em;
+  height: 3em;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.delete-account__delete-button:hover,
+.delete-account__back-button:hover {
+  color: white;
+}
+
+.delete-account__delete-button {
+  background-color: #EB3B43;
+}
+.delete-account__delete-button:hover {
+  background-color: #EB3B43;
+}
+.delete-account__back-button {
+  background-color: #029342;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .delete-account {
+    padding: 10.6em 0;
+  }
+  .delete-account__title {
+    font-size: 4rem;
+  }
+  .delete-account__description,
+  .delete-account__description__email {
+    font-size: 2.2rem;
+  }
+  .delete-account__description {
+    width: 85%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .delete-account__form {
+    margin-top: 5em;
+  }
+  .delete-account__form__label {
+    font-size: 2.8rem;
+  }
+  .delete-account__form__input {
+    font-size: 2.3rem;
+  }
+  .delete-account__form__buttons-container {
+    width: max-content;
+    margin-top: 3em;
+  }
+  .delete-account__delete-button,
+  .delete-account__back-button {
+    font-size: 2.2rem;
+    width: 8.3em;
+  }
+  .delete-account__delete-button {
+    margin-right: 1em;
+  }
+}
