@@ -139,10 +139,12 @@ button:hover {
   align-items: center;
 }
 .download-button img {
-  height: 3em;
+  height: 4.5em;
 }
 .download-buttons .download-button:first-child {
-  margin-right: 2em;
+  /* margin-right: 2em; */
+  margin-right: 0;
+  display: flex;
 }
 /* end Download buttons */
 
